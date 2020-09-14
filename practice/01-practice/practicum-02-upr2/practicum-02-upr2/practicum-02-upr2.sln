@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30204.135
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CreateStruct", "CreateStruct\CreateStruct.csproj", "{395C8265-61F0-4D3B-BD3E-BE0063B977AE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "practicum-02-upr2", "practicum-02-upr2.csproj", "{DBF9624F-AC38-425F-9324-492C4537F741}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{395C8265-61F0-4D3B-BD3E-BE0063B977AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{395C8265-61F0-4D3B-BD3E-BE0063B977AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{395C8265-61F0-4D3B-BD3E-BE0063B977AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{395C8265-61F0-4D3B-BD3E-BE0063B977AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF9624F-AC38-425F-9324-492C4537F741}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF9624F-AC38-425F-9324-492C4537F741}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF9624F-AC38-425F-9324-492C4537F741}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF9624F-AC38-425F-9324-492C4537F741}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {3DFF38FD-6617-489B-85DD-4EE81AE95140}
+		SolutionGuid = {982B7898-7ABA-4698-AE2F-68910335E5D9}
 	EndGlobalSection
 EndGlobal
