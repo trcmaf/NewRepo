@@ -10,7 +10,8 @@ namespace pr01_01_upr1
     public Person(string _firstName, string _lastName, int _age)
     {
       firstName = _firstName;
-      lastName = _lastName; age = _age;
+      lastName = _lastName; 
+      age = _age;
     }
     public override string ToString()
     {
