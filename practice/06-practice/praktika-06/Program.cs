@@ -5,10 +5,9 @@ namespace praktika_06
 {
   class Person
   {
-    //private
-    string name;
-    string surname;
-    System.DateTime birth;
+    private string name;
+    private string surname;
+    private System.DateTime birth;
     Person(string name, string surname, DateTime birth)
     {
 
@@ -18,6 +17,41 @@ namespace praktika_06
       name = "a";
       surname = "b";
       birth = DateTime.MinValue;
+    }
+    public string Name
+    {
+        get 
+        {
+            return name;
+        }
+        set { }
+    }
+    public string Surname
+    {
+        get
+        {
+            return surname;
+        }
+        set
+        {
+
+        }
+    }
+    public DateTime Birth
+    {
+        get
+        {
+            return birth;
+        }
+        set
+        {
+
+        }
+    }
+    public int Year////////////////////////////////////////////
+    {
+        get { }
+        set { }
     }
   }
   class Program
