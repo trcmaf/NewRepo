@@ -10,7 +10,6 @@ namespace Serialize_People
     // A simple program that accepts a name, year, month date,
     // creates a Person object from that information, 
     // and then displays that person's age on the console.
-
     class Program
     {
         static void Main(string[] args)
@@ -53,7 +52,6 @@ namespace Serialize_People
 
         private static void Serialize(Person sp)
         {
-            // TODO: Serialize sp object
             // Create file to save the data to
             FileStream fs = new FileStream("Person.Dat", FileMode.Create);
 
@@ -65,20 +63,24 @@ namespace Serialize_People
 
             // Close the file
             fs.Close();
-
         }
 
         private static Person Deserialize()
         {
             Person dsp = new Person();
 
-            // Открываем файл для чтения данных	
+            // Open file to read the data from
             FileStream fs = new FileStream("Person.Dat", FileMode.Open);
-            // Создаем объект BinaryFormatter для выполнения десериализации
+
+            // Create a BinaryFormatter object to perform the deserialization
             BinaryFormatter bf = new BinaryFormatter();
-            // Используем объект BinaryFormatter для десериализации данных из файла
+
+            // Use the BinaryFormatter object to deserialize the data to from file
             dsp = (Person)bf.Deserialize(fs);
-            // Закрываем файл fs.Close();
+
+            // Close the file
+            fs.Close();
+
             return dsp;
         }
     }
